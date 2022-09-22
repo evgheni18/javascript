@@ -52,7 +52,7 @@
 
 
 
-const firstName = "User";
+// const firstName = "User";
 // alert(`hello ${1}`); //hello 1
 // alert(`hello ${"firstName"}`); // hello firstName
 // alert(`hello ${firstName}`); //hello User
@@ -63,3 +63,6 @@ const firstName = "User";
 // alert(typeof alert()); //undefined
 // alert(typeof typeof);// error
 // alert(typeof typeof 1);// string
+
+// alert(1 / 0);
+alert(Infinity);
