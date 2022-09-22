@@ -1,0 +1,16 @@
+{
+  "name": "eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "1.1 JavaScript «LiveScript».js",
+  "scripts": {
+    "lint:config:check": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Evgheni",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-recommended": "^4.1.0"
+  }
+}
