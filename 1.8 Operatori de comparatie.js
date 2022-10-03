@@ -52,6 +52,21 @@
 // alert (null === +"\n0\n");//false
 
 
+// recap
+
+// alert( 2 != 1 );
+
+
+// home work
+
+// alert (5 > 4); //true
+// alert ("ananas" > "măr"); //true
+// alert ("2" > "12"); //false
+// alert (undefined == null); //true
+// alert (undefined === null); //false
+// alert (null == "\n0\n"); //false 
+// alert (null === +"\n0\n"); //false 
+
 
 
 

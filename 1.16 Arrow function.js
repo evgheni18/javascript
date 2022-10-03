@@ -30,7 +30,38 @@
 // }
 // alert (show(1)());
 
-let add = (a, b) => (n = 3) => a + b **n
-alert (add(1, 2)(2));
+// let add = (a, b) => (n = 3) => a + b **n
+// alert (add(1, 2)(2));
 
 
+
+// recap
+
+// let func = function(arg1, arg2) {
+//   return expression;
+// };
+// alert(func)
+
+// let sayHi = () => alert("Hello!");
+
+// sayHi();
+
+// let age = prompt("Cati ani ai?", 18);
+
+// let welcome = (age < 18) ?
+//   () => alert("Buna") :
+//   () => alert("Salut!");
+
+// welcome(); 
+
+// home work
+
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+//   ask("esti deacord?",
+//   () => alert("ati fost deacord."),
+//   () => alert("ati anulat executia.")
+//   );

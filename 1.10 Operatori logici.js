@@ -53,3 +53,38 @@
 
 // let result = NaN && (0 || !true) || 'hello';
 // alert (result); 
+
+// recap
+
+// let Number = Number
+// if (1 || 0) { // funcționează ca dacă (adevărat || false)
+//   alert( "truthy!" );
+// }
+// let hour = 11;
+
+// if (hour < 10 || hour > 18) {
+//   alert( "Go to work" );
+// }
+
+
+// let hour = 12;
+// let minute = 30;
+
+// if (hour == 11 && minute == 30) {
+//   alert( "The time is 12:30" );
+// }
+
+// let x = 0;
+// (x > 1) || alert( "Greater than zero!" );
+
+// let value = 5
+// result = value;
+// alert(value)
+
+
+// home work
+// alert(null || 2 || undefined); //2
+// alert(alert(1)|| 2 || alert(3)); //1 si 2 (de ce returneaza si 2?)
+// alert(1 && null && 2); //null
+// alert(null || 2 && 3 || 4); // null 3
+// alert(confirm() || 2); // confirm true (de ce returneaza true?)

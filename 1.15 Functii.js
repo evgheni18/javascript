@@ -167,7 +167,73 @@
 //   }
 //   alert(pow(3,3));
 
-function pow(x, n)
-return = (x**n);
+// function pow(x, n)
+// return = (x**n);
 
-alert (pow(2, 3));
+// alert (pow(2, 3));
+
+// recap 
+
+// function showMessage() {
+//   alert( "Salut!" );
+// }
+// showMessage();
+
+// let userName = "John";
+
+// function showMessage() {
+//   let userName = "Jessy"; // declară o variabilă locală
+//   let message = "Hello, " + userName; // Jessy
+  
+//   alert(message);
+// }
+
+// // funcția va crea și va folosi propria variabilă locală userName
+// showMessage();
+
+// alert(userName); // John, nu s-a schimbat, funcția nu a atins variabila extern
+
+// function showMessage(from, text = anotherFunction()) { // argumente: from, text
+//   alert(from + ":" + text);
+// }
+// showMessage("John", "Hello!");
+
+// function showMessage(from, text = anotherFunction()) {
+//   anotherFunction ()
+
+// function showMessage(from, text) {
+//   if (text === undefined) {
+//     text = "nu a fost adăugat niciun text";
+//   }
+
+//   alert( from + ": " + text );
+// }
+// showMessage("Robert");
+
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+  
+// }
+// alert (checkAge(40));
+
+// function checkAge(age) {
+//   return (age > 13) ? true : false
+// }
+// alert (checkAge(15));
+// function showMovie(age) {
+//   if (!checkAge(age) ) {
+//     return;
+//   }
+
+//   alert( "Show movie" ); // (*)
+//   // ...
+// }
+
+// function sayHi() {
+//   alert( "Hello" );
+// }
+// sayHi();

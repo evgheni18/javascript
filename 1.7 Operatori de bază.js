@@ -102,3 +102,42 @@
 // let a = 0;
 // let b = 1+(a++);
 // alert(b);//1
+
+// recap
+// alert(6 + "2"); 
+// let x = "hi2";
+// alert( +x );
+
+// let n = 2;
+// n += 2;
+// n *= 2;
+
+// alert(n);
+
+// let counter = 4;
+// let a = counter; // (*)
+
+// alert(a);
+
+// let a = (1,5 - 1) * 2;
+
+// alert(a);
+
+// home work
+// let a = 2, b = 1;
+// let c = ++a; 
+// let d = ++b; 
+// alert(a)//3
+// alert(b)//2
+// alert(c);//3
+// alert(d);//2
+
+// let a = 2;
+// let x = 1 + (a *= 2);
+// alert(a); //4
+// alert(x); //5
+
+// let a = 0;
+// let b  = 1 +0(++a);
+// alert(a);
+// alert(b); //error
