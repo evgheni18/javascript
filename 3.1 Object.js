@@ -71,13 +71,4 @@ __proto__ :8,
 }
 alert(obj.__proto__);
 
-let user = {
-    null : "john",
-    // age : 30,
-    lastName : null,
-    [1 > 17] : 30,
-}
 
-// alert("age" in user );
-
-alert(user[2 > 3]);
