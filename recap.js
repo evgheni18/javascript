@@ -45,4 +45,4 @@ ask(
 "Please", 
 function () {alert("thanks"); },
 function () {alert("please confirm"); }
-);vvvvv
+);
