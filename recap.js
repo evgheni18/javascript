@@ -46,3 +46,4 @@ ask(
 function () {alert("thanks"); },
 function () {alert("please confirm"); }
 );
+gfds
