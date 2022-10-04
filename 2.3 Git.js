@@ -1,1 +1,2 @@
-2.3 Git.js
+let a = 5  
+alert(a);
