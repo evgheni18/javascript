@@ -34,17 +34,20 @@ permission2.canView = false;
 // alert (user.name)
 
 let clone1 = Object.assign({}, permission1, permission2)
-user.size ={
+user.size = {
     height: 182,
     width: 50,
 }
 // alert(user.size.width);
-let clone2 = Object.assign({}, user)
+// let clone2 = Object.assign({}, user)
+let clone2 = structuredClone (user)
+// alert(clone2.name)
 // alert(clone2.size.width)
-// user.size.width = 80;
-user.size ={
-    height: 90,
-    width: 1,
-}
+user.size.width = 80;
+// user.size ={
+//     height: 90,
+//     width: 1,
+// }
 
 alert(clone2.size.width)
+alert(user.size == clone2.View)
