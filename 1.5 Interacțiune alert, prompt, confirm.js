@@ -17,8 +17,8 @@
 //     eyeColor : 'blue'
 // };
 // alert(person);
-let user = prompt ('what is your name?', 'user');
-alert('My name ${user}');
+let user = prompt ("what is your name?", "user");
+alert(`My name ${user}`);
 
-let result = confirm ('are you 33?');
-alert(confirm);
+let result = confirm ("are you 33?");
+alert(result);

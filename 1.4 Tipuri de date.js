@@ -50,7 +50,36 @@
 // alert (typeof null);//object
 // alert (typeof alert);//function
 
+// recap
 
+// alert(1 / 0);
+// alert( "hello world" / 2 );
+
+// const bigInt = 1234567890123456789012345678901234567890n;
+// alert (bigInt);
+
+// let str = "hello"
+// let str2 = "Hi"
+// let word = `hello ${str2}`;
+// alert(word);
+
+// let str = "Hello";
+// let str2 = "Hello";
+// let phrase = `Hello ${str}`;
+// alert(str2);
+// alert(phrase);
+
+// let nameFieldChecked = true;
+// alert(nameFieldChecked);
+// alert (typeof 1);
+// const firstName = "User";
+// alert(`hello ${firstName}`); 
+// alert(`hello ${1}`);
+// alert(`hello ${"firstName"}`);
+
+
+
+// homework
 
 // const firstName = "User";
 // alert(`hello ${1}`); //hello 1
@@ -65,4 +94,4 @@
 // alert(typeof typeof 1);// string
 
 // alert(1 / 0);
-alert(Infinity);
+// alert(Infinity);
