@@ -1,13 +1,13 @@
-function User(name){
-    // this = {}
-    this.name = name;
-    this.isAdmin = false;
-}
+// function User(name){
+//     // this = {}
+//     this.name = name;
+//     this.isAdmin = false;
+// }
 // let user = new User("John");
 // alert(user.name)
 // alert(user.isAdmin)
-let user1 = new User("John");
-let user2 = new User("Hello");
+// let user1 = new User("John");
+// let user2 = new User("Hello");
 
 
 // let user3 = new function() {
@@ -30,9 +30,19 @@ let user2 = new User("Hello");
 // alert(new SmallUser().sayHi())
 
 // homework 
-let obj = {};
 
-function A() { return obj; }
-function B() { return obj; }
+// let obj = {};
 
-alert( new A() == new B() );
+// function A() { return obj; }
+// function B() { return obj; }
+
+// alert( new A() == new B() );
+
+// recap
+
+function BigUser() 
+    // this.name = "John";
+    // return { name: "Godzilla" }; // <- returnează acest obiect
+    // return {}    
+    // }
+   alert( new BigUser().name ); // Godzilla, a primit acest obiect

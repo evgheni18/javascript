@@ -32,5 +32,20 @@
 // let value = String.raw`hello`;
 // alert(value);
 
-let value = "h v hello".search("hello");
-alert(value);
+// let value = "h v hello".search("hello");
+// alert(value);
+
+// recap
+
+// let user = {
+//  name: "John",
+//  sayHi: function() {
+//  alert("Hello my friend!");
+//  }
+// };
+// user.sayHi(); // Hello my friend!
+// alert(user.name);
+
+let str = "Hello";
+str.test = 5;
+alert(str.test);
