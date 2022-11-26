@@ -6,7 +6,7 @@ import React, {Component } from 'react';
 import Message from './componenst/Message';
 import Counter from './componenst/Counter';
 import FunctionClick from './componenst/FunctionClick';
-import ClassClick from './componenst/ClasClick';
+import ClassClick from './componenst/ClassClick';
 class App extends Component {
   render() {
   return (
