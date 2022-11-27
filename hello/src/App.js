@@ -1,17 +1,21 @@
 import './App.css';
-import Greet from './componenst/Greet';
-import Welcome from './componenst/Welcome';
-import Hi from './componenst/Hi';
+import Greet from './components/Greet';
+import Welcome from './components/Welcome';
+import Hi from './components/Hi';
 import React, {Component } from 'react';
-import Message from './componenst/Message';
-import Counter from './componenst/Counter';
-import FunctionClick from './componenst/FunctionClick';
-import ClassClick from './componenst/ClassClick';
+import Message from './components/Message';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './ParentComponent';
 class App extends Component {
   render() {
   return (
     <div className="App">
-      <ClassClick />
+      {/* <EventBind /> */}
+      <ParentComponent />
+      {/* <ClassClick /> */}
       {/* <FunctionClick/> */}
       {/* <Counter /> */}
       {/* <Message /> */}
