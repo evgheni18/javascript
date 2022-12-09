@@ -1,0 +1,13 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+body {
+margin: 0;
+background: linear-gradient(to left, #005AFF, #00FF6C);
+}
+
+.calculator-grid {
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns: repeat();
+} 
