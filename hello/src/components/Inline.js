@@ -1,15 +1,16 @@
 import React from 'react';
-const headiing = {
-    fontSize: '72px',
-    color: 'blue'
+const heading ={
+  fontSize: "72 px",
+  color: "blue"
 }
-
 function Inline() {
   return (
     <div>
-      <h1 style={headiing}>Inline</h1>
+      <h1 className = 'error'>Error</h1>
+      <h1 style={heading}>Inline</h1>
     </div>
-  )
+  );
 }
 
 export default Inline;
+
